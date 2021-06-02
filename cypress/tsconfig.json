@@ -1,0 +1,11 @@
+  {
+    "include": [
+      "../node_modules/cypress",
+      "*/*.ts"
+    ],
+    "compilerOptions": {
+      "noEmit": false,
+      "resolveJsonModule": true,
+      "types": ["cypress", "@testing-library/cypress"]
+    }
+  }

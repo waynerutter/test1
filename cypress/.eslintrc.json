@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "cypress",
+    "chai-friendly"
+  ],
+  "env": {
+      "cypress/globals": true
+    },
+  "rules": {
+      "cypress/no-unnecessary-waiting": "off"
+  },
+  "extends": [
+      "plugin:cypress/recommended",
+      "plugin:chai-friendly/recommended"
+    ]
+}
+
