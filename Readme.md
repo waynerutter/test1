@@ -8,3 +8,5 @@ npm install
 To run cypress 
 
 npx cypress open
+
+You will also need to set the base url in the cypress json file.

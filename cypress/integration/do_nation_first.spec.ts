@@ -5,6 +5,8 @@ describe('Pledge Flow', () => {
   it('A User can make a pledge', () => {
     // For each pledge in fixtures run this test
     cy.fixture('../fixtures/pledges.json').each((pledge) => {
+      //Go to route
+      cy.visit('/')
       // For each pledge find the pledge and click on it
       cy.findByText(pledge['pledge']).click();
       // Check description

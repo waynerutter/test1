@@ -1,0 +1,28 @@
+{
+  "name": "do_nation",
+  "version": "1.0.0",
+  "description": "This is an example of setting up cypress using  typescript and testing library.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^7.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microrutter/test1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microrutter/test1/issues"
+  },
+  "homepage": "https://github.com/microrutter/test1#readme"
+}
